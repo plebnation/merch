@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.313em/1.38 Raleway;
+  color: rgb(0, 0, 0);
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100.4166666666%;
+  height: 1006px;
+  background-image: url('../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.description {
+  position: relative;
+  float: left;
+  min-height: 350px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.description-1 p {
+  margin-bottom: 1em;
+}
+
+.img {
+  position: relative;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0 5px 5px rgb(255, 255, 255) inset;
+}
+
+.main {
+  position: absolute;
+  top: 322px;
+  left: 10%;
+  z-index: 1;
+  width: 80%;
+  height: 2795px;
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 -3px 5px 3px rgba(255, 255, 255, 0.68);
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._1 {
+  z-index: 4;
+  width: 56%;
+  height: 620px;
+  margin: 782px 0 0 22%;
+  background-image: url('../images/IMG_0003ed(4).JPG');
+}
+
+._2 {
+  height: 519px;
+}
+
+.description-1 {
+  clear: both;
+  z-index: 3;
+  width: 40.7994791666%;
+  margin: -870px 0 0 29.59896%;
+  font-size: 0.762em;
+  font-weight: 500;
+}
+
+.description-2 {
+  z-index: 8;
+  width: 27.1666666666%;
+  margin: 189px 0 0 22%;
+  font-size: 1em;
+}
+
+.description-3 {
+  z-index: 10;
+  width: 27.1666666666%;
+  margin: 189px 0 0 0.8%;
+  font-size: 1em;
+}
+
+.img-2 {
+  z-index: 2;
+  width: 28%;
+  margin: 20px 0 0 0.83073%;
+  background-image: url('../images/IMG_0006ed(2).JPG');
+}
+
+.img-3 {
+  clear: both;
+  z-index: 7;
+  width: 56%;
+  margin: 20px 0 0 22%;
+  background-image: url('../images/IMG_0009ed(2).JPG');
+}
+
+.img-4 {
+  clear: both;
+  z-index: 9;
+  width: 28%;
+  margin: 27px 0 0 22%;
+  background-image: url('../images/IMG_0017ed.JPG');
+}
+
+.text-1 {
+  top: 409px;
+  z-index: 6;
+  width: 28.7994791666%;
+  min-height: 134px;
+  font-size: 3.714em;
+}
+
+.text-2 {
+  top: 336px;
+  z-index: 5;
+  width: 28.8333333333%;
+  min-height: 112px;
+  font-size: 2.429em;
+}
